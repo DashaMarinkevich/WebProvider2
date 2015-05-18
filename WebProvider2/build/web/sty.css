@@ -1,0 +1,100 @@
+tml, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-weight:inherit;
+    font-style:inherit;
+    font-family:inherit;
+    vertical-align:baseline;
+}
+/* remember to define focus styles! */
+:focus{
+    outline:0;
+}
+body{
+    line-height:1;
+    color:black;
+}
+ol, ul{
+    list-style:none;
+}
+
+
+hr {
+    border:none;
+    border-top:1px solid #CCCCCC;
+    height:1px;
+    margin-bottom:25px;
+}
+
+
+.container{
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+h2{  
+    font: 1.1em arial;
+
+    display:inline-block; 
+
+    max-width:250px;   
+    border-bottom:none;
+    border-radius: 10px 10px 0 0; 
+
+}
+/*z-index*/
+#blue_box {
+    margin-left:10px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align:center;
+    color: silver;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+    border: solid 1px #4a7497;
+    background: #8daac3;
+    position: fixed;
+    z-index: 500;
+}
+
+/*������������*/
+INPUT:focus { 
+    color: red; /* ������� ���� ������ */
+}
+A:link { 
+    color: #036; /* ���� ������������ ������ */
+}
+A:visited { 
+    color: #606; /* ���� ���������� ������ */
+}
+A:hover { 
+    color: #f00; /* ���� ������ ��� ��������� �� ��� ������� ���� */
+}
+A:active { 
+    color: #ff0; /* ���� �������� ������ */
+}
+
+/*DHTML*/
+
+/*���������*/
+.leftimg {
+    float:left; /* ������������ �� ������ ���� */
+    margin: 7px 7px 7px 0; /* ������� ������ �������� */
+}
+.rightimg  {
+    float: right; /* ������������ �� ������� ����  */ 
+    margin: 7px 0 7px 7px; /* ������� ������ �������� */
+}
+
+
+/*������� ��������*/

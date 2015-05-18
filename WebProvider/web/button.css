@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13.05.2015, 14:53:48
+    Author     : Dasha-RV515
+*/
+
+button.button2, button.button2:before {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 100px;
+    border: solid rgb(4,88,192);
+    border-width: 3px 10px;
+    outline: none;
+    opacity: 1;
+    transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+} 
+button.button2 {
+
+    padding: calc(8px + 3px - 1px) calc(15px + 10px - 1px);
+    border: 1px solid rgba(62,153,239,.5);
+    background: rgb(206, 220, 231) linear-gradient(rgb(206,220,231), rgb(89,106,114));
+}
+button.button2:before {
+
+    position:  absolute; 
+    bottom: -7px;
+    left: -1px;
+    width: calc(100% - (15px + 10px - 1px)*2);
+    background: #fff linear-gradient(rgb(58,160,253), rgb(4,88,192) 60%, rgb(49,112,201));
+    box-shadow: 0 10px 18px rgba(0,0,0,.5);
+}
+button.button2:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+button.button2:hover:before {
+    border-color: #0766d8;
+    background: #fff linear-gradient(#3fadff, #0766d8 60%, #3279dd);
+}
+
+button.button2:active {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
